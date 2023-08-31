@@ -165,8 +165,8 @@ class Solver(object):
                 series_loss = series_loss / len(prior)
                 prior_loss = prior_loss / len(prior)
 
-                loss = prior_loss - series_loss
-                
+                loss = prior_loss - series_loss 
+
                 if (i + 1) % 100 == 0:
                     speed = (time.time() - time_now) / iter_count
                     left_time = speed * ((self.num_epochs - epoch) * train_steps - i)
@@ -195,6 +195,7 @@ class Solver(object):
         self.model.eval()
         temperature = 50
 
+        # (1) stastic on the train set
         attens_energy = []
         for i, (input_data, labels) in enumerate(self.train_loader):
             input = input_data.float().to(self.device)
@@ -226,10 +227,11 @@ class Solver(object):
         attens_energy = np.concatenate(attens_energy, axis=0).reshape(-1)
         train_energy = np.array(attens_energy)
 
+        # (2) find the threshold
         attens_energy = []
         for i, (input_data, labels) in enumerate(self.thre_loader):
             input = input_data.float().to(self.device)
-
+            series, prior = self.model(input)
             series_loss = 0.0
             prior_loss = 0.0
             for u in range(len(prior)):
@@ -260,11 +262,12 @@ class Solver(object):
         thresh = np.percentile(combined_energy, 100 - self.anormly_ratio)
         print("Threshold :", thresh)
 
+        # (3) evaluation on the test set
         test_labels = []
         attens_energy = []
         for i, (input_data, labels) in enumerate(self.thre_loader):
             input = input_data.float().to(self.device)
-
+            series, prior = self.model(input)
             series_loss = 0.0
             prior_loss = 0.0
             for u in range(len(prior)):

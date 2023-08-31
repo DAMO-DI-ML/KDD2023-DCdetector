@@ -4,6 +4,7 @@
 [[Paper]](https://arxiv.org/abs/2306.10347)
 
 
+
 The most fundamental challenge for time series anomaly detection is to learn a representation map that enables effective discrimination of anomalies. Reconstruction-based methods still dominate, but the representation learning with anomalies might hurt the performance with its large abnormal loss. In this paper, we propose DCdetector, a multi-scale dual attention contrastive representation learning model.
 
 - **Overall**: DCdetector utilizes a novel dual attention asymmetric design to create the permutated environment and pure contrastive loss to guide the learning process, thus learning a permutation invariant representation with superior discrimination abilities.
