@@ -96,7 +96,7 @@ If you find this repo useful, please cite our paper.
 ```
 
 ## Contact
-If you have any question or want to use the code, please contact yiyuan.yang@cs.ox.ac.uk, chaoli.zcl@alibaba-inc.com, qingsong.wen@alibaba-inc.com.
+If you have any question or want to use the code, please contact yiyuan.yang@cs.ox.ac.uk, chaoli.zcl@alibaba-inc.com,tian.zt@alibaba-inc.com,qingsong.wen@alibaba-inc.com.
 
 ## Acknowledgement
 We appreciate the following github repos a lot for their valuable code:
