@@ -67,6 +67,7 @@ bash ./scripts/SMD.sh
 bash ./scripts/MSL.sh
 bash ./scripts/SMAP.sh
 bash ./scripts/PSM.sh
+bash ./scripts/SWAT.sh
 bash ./scripts/NIPS_TS_Swan.sh
 bash ./scripts/NIPS_TS_Water.sh
 bash ./scripts/UCR.sh
