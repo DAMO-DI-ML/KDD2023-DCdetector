@@ -29,7 +29,7 @@ The most fundamental challenge for time series anomaly detection is to learn a r
 ## Main Result
 We compare our model with 26 baselines based on various evaluation criteria. Extensive experiments show that DCdetector achieves the best or comparable performance on seven benchmark datasets compared to various state-of-the-art algorithms.
 
-|![Figure1](img/result_1.png)|
+|![Figure1](img/DCdetector.jpg)|
 |:--:| 
 | *Table 1. Overall results on real-world multivariate datasets.* |
 
