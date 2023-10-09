@@ -15,7 +15,7 @@ The most fundamental challenge for time series anomaly detection is to learn a r
 
 - **Optimization**: An effective and robust loss function is designed based on the similarity of two branches. Note that the model is trained purely contrastively without reconstruction loss, which reduces distractions from anomalies.
 
-- **Performance & Justification**: DCdetector achieves performance comparable or superior to SOTA methods on seven time series anomaly detection benchmark datasets. We also provide justification discussion to explain how our model avoids collapse without negative samples.
+- **Performance & Justification**: DCdetector achieves performance comparable or superior to SOTA methods on eight time series anomaly detection benchmark datasets. We also provide justification discussion to explain how our model avoids collapse without negative samples.
 
 |![Figure1](img/art-compare.png)|
 |:--:| 
@@ -27,7 +27,7 @@ The most fundamental challenge for time series anomaly detection is to learn a r
 
 
 ## Main Result
-We compare our model with 26 baselines based on various evaluation criteria. Extensive experiments show that DCdetector achieves the best or comparable performance on seven benchmark datasets compared to various state-of-the-art algorithms.
+We compare our model with 26 baselines based on various evaluation criteria. Extensive experiments show that DCdetector achieves the best or comparable performance on eight benchmark datasets compared to various state-of-the-art algorithms.
 
 |![Figure1](img/DCdetector.jpg)|
 |:--:| 
