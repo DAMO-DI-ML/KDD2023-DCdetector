@@ -33,7 +33,7 @@ We compare our model with 26 baselines based on various evaluation criteria. Ext
 |:--:| 
 | *Table 1. Overall results on real-world multivariate datasets.* |
 
-|![image](img/result_2.png) | ![image](img/result_3.png)
+|![image](img/result_2.png) | ![image](img/result_count.jpg)
 |:--:|:--:|
 | *Table 2. Overall results on NIPS-TS datasets.* | *Table 3. Overall results on univariate dataset.* |
 
