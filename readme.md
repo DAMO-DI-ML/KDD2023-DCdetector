@@ -55,6 +55,7 @@ There are ten files/folders in the source.
 - solver.py: Another python file. The training, validation, and testing processing are all in there. 
 - utils: Other functions for data processing and model building.
 - img: Images needed in readme.md.
+- requirements.txt: Python packages needed to run this repo.
 
 
 ## Get Start
@@ -91,7 +92,7 @@ If you find this repo useful, please cite our paper.
   author={Yiyuan Yang and Chaoli Zhang and Tian Zhou and Qingsong Wen and Liang Sun},
   booktitle={Proc. 29th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining (KDD 2023)},
   location = {Long Beach, CA},
-  pages={},
+  pages={3033–3045},
   year={2023}
 }
 ```
